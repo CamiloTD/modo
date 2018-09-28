@@ -10,10 +10,10 @@ Modo is developed with simplicity in mind, you can start your service on any fol
 You can also define a **modo.json** file for configuring the following options: 
 ```json
 {
-	"host": "127.0.0.1", // Host to expose, for public use 0.0.0.0
+	"host": "127.0.0.1", /* Host to expose, for public use 0.0.0.0 */
 	"port": 6080,
-	"method": "POST", // GET API with query params or POST JSON API?
-	"debug": true, // Prints debug output
-	"public_folder": "." // Folder to be exposed, by default: ./
+	"method": "POST", /* GET API with query params or POST JSON API? */
+	"debug": true, /* Prints debug output */
+	"public_folder": "." /* Folder to be exposed, by default: ./ */
 } 
 ```
