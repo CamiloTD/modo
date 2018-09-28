@@ -8,7 +8,7 @@ Just use `npm install -g @camilotd/modo` and it's done!
 Modo is developed with simplicity in mind, you can start your service on any folder and it will automatically expose every module inside using: `modo`
 
 You can also define a **modo.json** file for configuring the following options: 
-```json
+```js
 {
 	"host": "127.0.0.1", /* Host to expose, for public use 0.0.0.0 */
 	"port": 6080,
