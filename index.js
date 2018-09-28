@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/node
 const Modo = require('./modo');
 const path = require('path');
 const fs   = require('fs');
